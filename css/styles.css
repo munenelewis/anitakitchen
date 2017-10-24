@@ -178,7 +178,7 @@ height: 100%;
 transition: .5s ease;
 }
 .bg-1:hover .text {
-color: #000000;
+color:#d64646;
 }
 .bg-1{
 padding: 0;
@@ -208,4 +208,7 @@ width:200px;
 }
 #line{
 	 border-left: thick solid #7e7c84;
+}
+.happy2:hover .text {
+color:#d64646;
 }
