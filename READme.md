@@ -6,20 +6,17 @@
 
 ## Description
 
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+the website will run  in any platform provided myou have an internet 
 
-## Setup: you will need a web browser to run this more preferably google chrome. in onder to install this project just clone it from here make sure you have a tetx editor incase you eant to edit anything
+## Setup: 
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+you will need a web browser to run this more preferably google chrome. in onder to install this project just clone it from here make sure you have a tetx editor incase you eant to edit anything
 
 
 ## Technologies Used
 
 i used html,css and java script 
+
 ## Support and contact details
 
 incase of any trouble installing or running the website please reach me via munene2379@gmail.com
