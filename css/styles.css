@@ -66,7 +66,7 @@
 		background-color: white;
 		color:red;
 	}
-.side{
+.lay{
 background-image: url("../assets/backgrounds/foodsBg.jpg");
 height: 80vh;
 	width:100%;
@@ -134,7 +134,7 @@ height: 50vh;
 	justify-content:center;
 	text-align: center;
 	padding: 200px ;
-	color: white;
+
 }
 .icons{
 	padding:20px;
@@ -167,7 +167,7 @@ width: 100%;
 height: 100%;
 transition: .5s ease;
 }
-.hover:hover .overlay-mini {
+.bd:hover .overlay-mini {
 position: absolute;
 bottom: 0;
 right: 0;
@@ -177,21 +177,13 @@ width: 100%;
 height: 100%;
 transition: .5s ease;
 }
-<<<<<<< HEAD
-.hover:hover .text {
-color: #000000;
-=======
-.bg-1:hover .text {
+.bd:hover .text {
 color:#d64646;
->>>>>>> gh-pages
 }
-.hover{
+.bd{
 padding: 0;
 }
-#hph:hover{
-	padding-right: 50px;
-}
-.hover:0{
+.bg-10{
 padding: 0;
 }
 .bg-00{
@@ -214,15 +206,9 @@ width:200px;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-<<<<<<< HEAD
-#bc{
-	background-color: #deedf7;
-	:hover-color:#d64646;
-=======
 #line{
 	 border-left: thick solid #7e7c84;
 }
-.happy2:hover .text {
+.happy:hover .text {
 color:#d64646;
->>>>>>> gh-pages
 }
