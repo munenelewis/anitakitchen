@@ -6,66 +6,95 @@
 	<link rel="stylesheet" type="text/css" href="https://www.google.com/fonts">
 	<link href="https://fonts.googleapis.com/css?family=Catamaran|Slabo+27px" rel="stylesheet">
 	<script type="text/javascript" src="js/script.js"></script>
-	<link 
+	<link
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
-<!-- 
- introduction part
- -->
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer;position: absolute;" onclick="openNav()">☰ open</span>
+
 
 <div class="container-fluid" id="boy" >
 
-	
 				<div class="logo">
 						<img src="assets/logoBig.png" id="logo">
 						<p id="fix">We Provide The Best Food <br/>
 						At The Right Price<p>
 				</div>
-	
+
 </div>
 
 <!-- <div class="container" id="content">
 	 </div> -->
     <div class="row" col-xs-12>
     	<div class="container-fluid">
+<<<<<<< HEAD
 <div class="row">
     <div class="col-md-3 bd" class="col-xs-3">
    
         <div class="col-md-6 bd">
+=======
+<!-- <div class="row"> -->
+    <div class="col-md-3 bg-1" class="col-xs-3">
+
+        <div class="col-md-6 bg-0">
+>>>>>>> gh-pages
             <div class="happy">
                 <div class="text" style="color:#000000;">Happy Hour</div><br/>
             </div>
         </div>
-   
+
         <div class="col-md-12 bg-00" class="col-xs-3">
             <div class="happy">
                 <div class="text">Party Time</div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
   
     <div class="col-md-3 bd" class="col-xs-3">
+=======
+
+    <div class="col-md-3 bg-1" class="col-xs-3">
+>>>>>>> gh-pages
         <img src="assets/foodtop/breakfast.jpg"  class="img-responsive" style="display:inline" alt="Breakfast" width="100%" height="100%">
         <div class="overlay-mini">
             <div class="text" id="breakfast2">Breakfast</div>
         </div>
     </div>
+<<<<<<< HEAD
     
     <div class="col-md-3 bd" class="col-xs-3">
+=======
+
+    <div class="col-md-3 bg-1" class="col-xs-3">
+>>>>>>> gh-pages
         <img src="assets/foodtop/lunch.jpg"  class="img-responsive" style="display:inline" alt="Lunch" width="100%" height="100%">
         <div class="overlay-mini">
             <div class="text">Lunch</div>
         </div>
     </div>
+<<<<<<< HEAD
   
     <div class="col-md-3 bd" class="col-xs-3">
+=======
+
+    <div class="col-md-3 bg-1" class="col-xs-3">
+>>>>>>> gh-pages
         <img src="assets/foodtop/dinner.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="100%" height="100%">
         <div class="overlay-mini">
             <div class="text">Dinner</div>
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 </div>
 </div>
      			 
@@ -77,8 +106,20 @@
   					<div class="col-md-6" class="col-xs-6">
 	<img src="assets/fastFood1.jpg" id="food" width="100%">
 	<img src="assets/fastFood2.jpg" id="food" width="100%">
+=======
+<!-- </div> -->
+<!-- </div> -->
+
+    </div>
+<div class="container-fluid">
+		<ARTICLE class="container-fluid">
+	  			<div class="col-md-12"class="col-sm-12">
+  					<div class="col-md-6" class="col-sm-6">
+	<img src="assets/fastFood1.jpg" id="food">
+	<img src="assets/fastFood2.jpg" id="food">
+>>>>>>> gh-pages
 					</div>
-				<div class="col-md-4" class="col-xs-4">
+				<div class="col-md-4" class="col-sm-4">
 		<h2>Fast Food</h2>
 	<b><h3>you'll love our delious fast food</h3></b>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -87,7 +128,7 @@
 				</div>
 		</ARTICLE>
 </div>
-<div class="container">
+<div class="container-fluid">
 <div class="col-md-12" class="col-xs-12">
 	  	<div class="col-md-6">
 		<h2>Drinks</h2>
@@ -99,8 +140,8 @@
 	<img src="assets/drink1.jpg" id="food" >
 	<img src="assets/drink2.jpg" id="food">
 </div>
-	
-	 
+
+
 			</div>
 			</div>
 <div class="lay">
@@ -174,13 +215,13 @@
             </div>
         </div>
     </div>
-	<!-- </div>	 -->	
+	<!-- </div>	 -->
 
 <div class="final">
 	<h3><p class= "daily" > Get our daily food items delivered to your email <br/>
 		<input type="text" name="text1" placeholder="your email" id="input"><button type="button" class="btn btn-secondary btn-lg">Large button</button></h3></p>
 
-</div>	
+</div>
 
 <div class="lastly">
 	<img src="assets/footerlogos/logo_white.png"> MENU<br/>
@@ -191,31 +232,8 @@
 	<span class="icons">2016 menu restrant</span>
 
 
-</div>	
-<script>
+</div>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
-
-</script>
 
 
  <script src="js/scripts.js"></script>
